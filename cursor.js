@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     interactiveElements.forEach((el) => {
         el.addEventListener('mouseover', () => {
             cursor.style.background = 'rgba(8, 212, 243, 0.2)'; // Change color
-            cursor.style.transform = 'translate(-50%, -50%) scale(1.2)';
+            cursor.style.transform = 'translate(-50%, -50%) scale(2.0)';
             el.style.cursor = 'none'; // Hide the default pointer cursor on interactive elements
         });
 
