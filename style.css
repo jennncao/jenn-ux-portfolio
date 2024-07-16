@@ -104,14 +104,36 @@ p {
 
 .content-wrapper {
     display: flex;
-    flex-wrap: wrap; /* Ensure content wraps on smaller screens */
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-between; /* Adjusts space between items */
+    align-items: center; /* Aligns items vertically in the center */
+    text-align: left;
+    max-width: 1200px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 1em;
+}
+
+.content-wrapper2 {
     max-width: 1200px;
-    width: 100%;
-    margin: 30px 0;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 1em;
     box-sizing: border-box;
+    text-align: left;
+}
+
+.text2-content {
+    margin-bottom: 20px;
+}
+
+.image2-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image2-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .dropdown:hover .dropdown-content {
