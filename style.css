@@ -255,8 +255,8 @@ h2 {
 
 .cursor {
     position: fixed;
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background: rgba(243, 8, 235, 0.2);
     pointer-events: none; /* Make sure the cursor doesn't block interactions */
